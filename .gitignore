@@ -1,0 +1,40 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+.auth/*.json
+!.auth/.gitkeep
+history/*.json
+!history/.gitkeep
+*.state.json
+
+# Local MCP and Agent configs (Contain credentials)
+.mcp.json
+.agents/
+*.mcp_config.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Generated Media & Logs
+media/*.jpg
+media/*.png
+media/latest_dossier.json
+media/dossier_*.json
+media/visual_*.json
+*.log
+
+# Node & Package Managers
+node_modules/
+SkillKit/
+
+# OS Specific
+.DS_Store
+Thumbs.db
